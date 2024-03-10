@@ -1,6 +1,6 @@
 import cv2
 
-image = cv2.imread('me.jpg')
+image = cv2.imread('me.jpg', cv2.IMREAD_GRAYSCALE)
 
 # Check image type
 print(type(image))  # Should print <class 'numpy.ndarray'>
